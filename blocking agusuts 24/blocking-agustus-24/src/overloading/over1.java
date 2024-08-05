@@ -9,5 +9,7 @@ package overloading;
  * @author vfz
  */
 public class over1 {
-    
+    public void Tampil(){
+        
+    }
 }
