@@ -10,6 +10,7 @@ package object1;
  */
 class sepedaMotor {
     private String merk;
+    @SuppressWarnings("unused")
     private long harga;
     
     public void setMerk(String merkMotor){
