@@ -1,0 +1,14 @@
+F:\Juang xp1\blocking oktober\chsarp juang h5\juang613\bin\Debug\net7.0\juang613.exe
+F:\Juang xp1\blocking oktober\chsarp juang h5\juang613\bin\Debug\net7.0\juang613.deps.json
+F:\Juang xp1\blocking oktober\chsarp juang h5\juang613\bin\Debug\net7.0\juang613.runtimeconfig.json
+F:\Juang xp1\blocking oktober\chsarp juang h5\juang613\bin\Debug\net7.0\juang613.dll
+F:\Juang xp1\blocking oktober\chsarp juang h5\juang613\bin\Debug\net7.0\juang613.pdb
+F:\Juang xp1\blocking oktober\chsarp juang h5\juang613\obj\Debug\net7.0\juang613.GeneratedMSBuildEditorConfig.editorconfig
+F:\Juang xp1\blocking oktober\chsarp juang h5\juang613\obj\Debug\net7.0\juang613.AssemblyInfoInputs.cache
+F:\Juang xp1\blocking oktober\chsarp juang h5\juang613\obj\Debug\net7.0\juang613.AssemblyInfo.cs
+F:\Juang xp1\blocking oktober\chsarp juang h5\juang613\obj\Debug\net7.0\juang613.csproj.CoreCompileInputs.cache
+F:\Juang xp1\blocking oktober\chsarp juang h5\juang613\obj\Debug\net7.0\juang613.dll
+F:\Juang xp1\blocking oktober\chsarp juang h5\juang613\obj\Debug\net7.0\refint\juang613.dll
+F:\Juang xp1\blocking oktober\chsarp juang h5\juang613\obj\Debug\net7.0\juang613.pdb
+F:\Juang xp1\blocking oktober\chsarp juang h5\juang613\obj\Debug\net7.0\juang613.genruntimeconfig.cache
+F:\Juang xp1\blocking oktober\chsarp juang h5\juang613\obj\Debug\net7.0\ref\juang613.dll

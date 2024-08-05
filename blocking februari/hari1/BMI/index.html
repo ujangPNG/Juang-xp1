@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penghitung BMI</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div>
+        <h1 font="helvetica" align="center"><b>Aplikasi Body Mass Index</b></h1>
+        <table class="hitung">
+            <tr>
+                <td class="inp">Masukkan Berat Badan (kg)<br><input type="text" class="inpbox" id="berat"></td>
+            </tr>
+            <tr>
+                <td class="inp">Masukkan Tinggi Badan (cm)<br><input type="text" class="inpbox" id="tinggi"></td>
+            </tr>
+            <tr>
+                <br><br>
+                <td align="left"><br><br><button onclick="hasil()" class="submitt">Hitung!</button></td>
+            </tr>
+            <tr>
+                <td colspan="4" class="boxhasil"><span id="hasilhitung"></span></td>
+            </tr>
+        </table>
+</body>
+</html>

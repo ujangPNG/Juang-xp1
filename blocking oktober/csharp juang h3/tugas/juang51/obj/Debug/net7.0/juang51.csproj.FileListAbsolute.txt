@@ -1,0 +1,14 @@
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\juang51\bin\Debug\net7.0\juang51.exe
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\juang51\bin\Debug\net7.0\juang51.deps.json
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\juang51\bin\Debug\net7.0\juang51.runtimeconfig.json
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\juang51\bin\Debug\net7.0\juang51.dll
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\juang51\bin\Debug\net7.0\juang51.pdb
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\juang51\obj\Debug\net7.0\juang51.GeneratedMSBuildEditorConfig.editorconfig
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\juang51\obj\Debug\net7.0\juang51.AssemblyInfoInputs.cache
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\juang51\obj\Debug\net7.0\juang51.AssemblyInfo.cs
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\juang51\obj\Debug\net7.0\juang51.csproj.CoreCompileInputs.cache
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\juang51\obj\Debug\net7.0\juang51.dll
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\juang51\obj\Debug\net7.0\refint\juang51.dll
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\juang51\obj\Debug\net7.0\juang51.pdb
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\juang51\obj\Debug\net7.0\juang51.genruntimeconfig.cache
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\juang51\obj\Debug\net7.0\ref\juang51.dll

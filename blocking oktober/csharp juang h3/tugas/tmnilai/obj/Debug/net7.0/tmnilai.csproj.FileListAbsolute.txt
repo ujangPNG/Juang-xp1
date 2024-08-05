@@ -1,0 +1,14 @@
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmnilai\obj\Debug\net7.0\tmnilai.GeneratedMSBuildEditorConfig.editorconfig
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmnilai\obj\Debug\net7.0\tmnilai.AssemblyInfoInputs.cache
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmnilai\obj\Debug\net7.0\tmnilai.AssemblyInfo.cs
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmnilai\obj\Debug\net7.0\tmnilai.csproj.CoreCompileInputs.cache
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmnilai\bin\Debug\net7.0\tmnilai.exe
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmnilai\bin\Debug\net7.0\tmnilai.deps.json
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmnilai\bin\Debug\net7.0\tmnilai.runtimeconfig.json
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmnilai\bin\Debug\net7.0\tmnilai.dll
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmnilai\bin\Debug\net7.0\tmnilai.pdb
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmnilai\obj\Debug\net7.0\tmnilai.dll
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmnilai\obj\Debug\net7.0\refint\tmnilai.dll
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmnilai\obj\Debug\net7.0\tmnilai.pdb
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmnilai\obj\Debug\net7.0\tmnilai.genruntimeconfig.cache
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmnilai\obj\Debug\net7.0\ref\tmnilai.dll

@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Point of Sale</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body draggable="false">
+    <p contenteditable class="language-css" tabindex="0"><code class="language-css"><span class="token selector"></span>POINT <span class="token punctuation">OF SALE</span><table align="center" class="token punctuation">
+            <tr class="atas">
+                <td class="tborder">No</td>
+                <td class="tborder">Makanan / Minuman</td>
+                <td class="tborder">Harga</td>
+                <td class="tborder">Jumlah Pesan</td>
+            </tr>
+            <tr class="isi" align="center">
+                <td class="tborder">1</td>
+                <td class="tborder">Nasi Goreng Sambal Hijau</td>
+                <td class="harga">Rp | <span name="m1" id="harga">25000</span></td>
+                <td class="tborder"><input  type="number" id="inp" min="0"></input></td>
+            </tr>
+            <tr class="isi" align="center">
+                <td class="tborder">2</td>
+                <td class="tborder">Nasi Goreng Ati Ampela</td>
+                <td class="harga">Rp | <span name="m2" id="harga">23000</span></td>
+                <td class="tborder"><input type="number"  id="inp" min="0"></td>
+            </tr>
+            <tr class="isi" align="center">
+                <td class="tborder">3</td>
+                <td class="tborder">Nasi Goreng Sambal Bakar</td>
+                <td class="harga">Rp | <span name="m3" id="harga">28000</span></td>
+                <td class="tborder"><input type="number"  id="inp" min="0"></td>
+            </tr>
+            <tr class="isi" align="center">
+                <td class="tborder">4</td>
+                <td class="tborder">Lemon Tea</td>
+                <td class="harga">Rp | <span name="m4" id="harga">18000</span></td>
+                <td class="tborder"><input type="number"  id="inp" min="0"></td>
+            </tr>
+            <tr class="isi" align="center">
+                <td class="tborder">5</td>
+                <td class="tborder">Es Teh Manis</td>
+                <td class="harga">Rp | <span name="m5" id="harga">10000</span></td>
+                <td class="tborder"><input type="number"  id="inp" min="0"></td>
+            </tr>
+
+
+            <tr class="isi" align="center">
+                <td><br></td>
+                <td><br></td>
+                <td align="right">Jumlah</td>
+                <td colspan="4" class=""><span id="jumlah"></span></td>
+            </tr>
+            <tr class="isi" align="center">
+                <td><br></td>
+                <td><br></td>
+                <td align="right">Diskon 5%</td>
+                <td colspan="4" class=""><span id="diskon"></span></td>
+            </tr>
+            <tr class="isi" align="center">
+                <td><br></td>
+                <td><br></td>
+                <td align="right">Total Pembayaran</td>
+                <td colspan="4" class=""><span id="total"></span></td>
+            </tr>
+            <tr class=""  align="center">
+                <td><br></td>
+                <td><input type="reset" onclick="reset()"  id=""></td>
+                <td><button onclick="total()">Total Harga</button></td>
+                <td><button onclick="struk()">Cetak Struk</button></td>
+            </tr></table><span class="token punctuation"></span>
+    </code></p>
+   
+    
+</body>
+</html>

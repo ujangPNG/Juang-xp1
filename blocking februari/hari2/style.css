@@ -1,0 +1,140 @@
+.tborder{
+    border-radius:0%;
+    text-align: center;
+}
+.atas{
+    padding-top: 0%;
+    width: 300px;
+    height: 30px;
+    background-color: #fffb00;
+    color: #000000;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: conic-gradient(
+      from 0deg at 50% 0%,
+      rgb(217, 255, 0),
+      rgb(211, 233, 16),
+      rgba(254, 234, 59, 0.914),
+      rgb(251, 223, 14)
+    );
+}
+.isi{
+    padding-top: 0%;
+    width: 300px;
+    height: 30px;
+    background-color: #fbf6f6;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: conic-gradient(
+      from 0deg at 45% 0%,
+      rgb(208, 213, 183),
+      rgb(255, 255, 255),
+      rgba(254, 250, 212, 0.914),
+      rgb(209, 208, 196)
+    );
+}
+
+.harga{
+    border-color: aquamarine;
+}
+
+:root {
+    --Ltpink: hsl(0, 75%, 63%);
+    --tyellow: hsl(38, 88%, 55%);
+    --white: hsl(334, 7%, 95%);
+    --green: hsl(130, 77%, 40%);
+  }
+    
+body {
+    background: hsl(0, 0%, 95%);
+    background-image: conic-gradient(
+      from 0deg at 50% 50%,
+      blue,
+      rgb(214, 178, 214),
+      purple,
+      blue
+    );
+    background-blend-mode: multiply;
+    min-block-size: 100dvh;
+    display: grid;
+    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  p {
+    --selector: var(--Ltpink);
+    --property: var(--tyellow);
+    --punctuation: var(--white);
+    --undefined: var(--green);
+  
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--undefined);
+    background: hsl(240, 3%, 85%);
+    padding: 2rem;
+    border-radius: 1rem;
+  
+    position: relative;
+  
+    transform-style: preserve-3d;
+    transform: 
+      perspective(5000px) 
+      rotateY(var(--rotateX)) 
+      rotateX(var(--rotateY));
+  }
+  
+  p > * {
+    text-shadow: 0 0 0.3em currentColor;
+  }
+  
+  p::before,
+  p::after {
+    content: "";
+    position: absolute;
+    border-radius: inherit;
+  }
+  
+  p::before {
+    inset: -0.3rem;
+    border-radius: inherit;
+    background: black;
+    z-index: -1;
+    transform: translateZ(-50px);
+    filter: blur(15px);
+    opacity: 0.9;
+  }
+  
+  p::after {
+    z-index: -2;
+    inset: -1.5rem;
+    background: linear-gradient(-45deg, red, blue);
+    transform: translateZ(-50px);
+  }
+  
+  .selector {
+    color: var(--selector);
+  }
+  
+  .property {
+    color: var(--property);
+  }
+  
+  .punctuation {
+    color: var(--punctuation);
+  }
+  
+  .property + .punctuation {
+    color: var(--property);
+  }
+  
+  .p-container {
+    position: relative;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  }

@@ -1,0 +1,26 @@
+.submitt{
+    background-color: #aeade6;
+    padding: 0px;
+    width: 100px;
+    font-family: sans-serif;
+}
+.submitt:hover{
+    background-color: rgba(255, 255, 0, 0.21);
+}
+.boxhasil{
+    background-color: lightblue;
+    width: 70%;
+    height: 40px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d3d4cf;
+}
+.inpbox{
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+}

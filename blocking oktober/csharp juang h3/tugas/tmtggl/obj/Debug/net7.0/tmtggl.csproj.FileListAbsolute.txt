@@ -1,0 +1,14 @@
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmtggl\bin\Debug\net7.0\tmtggl.exe
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmtggl\bin\Debug\net7.0\tmtggl.deps.json
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmtggl\bin\Debug\net7.0\tmtggl.runtimeconfig.json
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmtggl\bin\Debug\net7.0\tmtggl.dll
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmtggl\bin\Debug\net7.0\tmtggl.pdb
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmtggl\obj\Debug\net7.0\tmtggl.GeneratedMSBuildEditorConfig.editorconfig
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmtggl\obj\Debug\net7.0\tmtggl.AssemblyInfoInputs.cache
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmtggl\obj\Debug\net7.0\tmtggl.AssemblyInfo.cs
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmtggl\obj\Debug\net7.0\tmtggl.csproj.CoreCompileInputs.cache
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmtggl\obj\Debug\net7.0\tmtggl.dll
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmtggl\obj\Debug\net7.0\refint\tmtggl.dll
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmtggl\obj\Debug\net7.0\tmtggl.pdb
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmtggl\obj\Debug\net7.0\tmtggl.genruntimeconfig.cache
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmtggl\obj\Debug\net7.0\ref\tmtggl.dll

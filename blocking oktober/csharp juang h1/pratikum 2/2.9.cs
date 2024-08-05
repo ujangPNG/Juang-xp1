@@ -1,0 +1,1 @@
+using System;public class Program{public static void Main(string[] args){float height = 1.82f;decimal weight=92.8m;double volume=95.4;{Console.WriteLine("Height : "+height);Console.WriteLine("Weight : "+weight);Console.WriteLine("Volume : "+volume);}}}

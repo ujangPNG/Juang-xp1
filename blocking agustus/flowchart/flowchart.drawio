@@ -1,0 +1,88 @@
+<mxfile host="Electron" modified="2023-08-14T15:52:47.297Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="JpEOr2lgZbT-8RP8oEdZ" version="21.6.8" type="device">
+  <diagram name="Page-1" id="qH_9K7xh1F1oiSIIfpK4">
+    <mxGraphModel dx="1104" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9e_NsOjc4AJ9GKmxZ6mt-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9e_NsOjc4AJ9GKmxZ6mt-6" target="9e_NsOjc4AJ9GKmxZ6mt-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9e_NsOjc4AJ9GKmxZ6mt-6" value="&lt;span style=&quot;background-color: rgb(255, 206, 159);&quot;&gt;Start&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#e3c800;fontColor=#000000;strokeColor=#000000;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="90" y="120" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9e_NsOjc4AJ9GKmxZ6mt-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9e_NsOjc4AJ9GKmxZ6mt-9" target="9e_NsOjc4AJ9GKmxZ6mt-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9e_NsOjc4AJ9GKmxZ6mt-9" value="Melengkapi formulir pendaftaran" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Verdana;fillColor=#e3c800;strokeColor=#000000;fontColor=#000000;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="80" y="230" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9e_NsOjc4AJ9GKmxZ6mt-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9e_NsOjc4AJ9GKmxZ6mt-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9e_NsOjc4AJ9GKmxZ6mt-11" value="formulir pendaftaran" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Verdana;fillColor=#e3c800;strokeColor=#000000;fontColor=#000000;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="80" y="345" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9e_NsOjc4AJ9GKmxZ6mt-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9e_NsOjc4AJ9GKmxZ6mt-31" target="9e_NsOjc4AJ9GKmxZ6mt-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9e_NsOjc4AJ9GKmxZ6mt-31" value="mengentry formulir pendaftaran" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=7;arcSize=0;fontFamily=Verdana;fillColor=#e3c800;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="280" y="345" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9e_NsOjc4AJ9GKmxZ6mt-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9e_NsOjc4AJ9GKmxZ6mt-37" target="9e_NsOjc4AJ9GKmxZ6mt-41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9e_NsOjc4AJ9GKmxZ6mt-37" value="mengecek kelengkapan isian" style="whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#e3c800;strokeColor=#000000;fontColor=#000000;strokeWidth=2;rounded=1;arcSize=0;" parent="1" vertex="1">
+          <mxGeometry x="450" y="345" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9e_NsOjc4AJ9GKmxZ6mt-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9e_NsOjc4AJ9GKmxZ6mt-41" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9e_NsOjc4AJ9GKmxZ6mt-49" value="tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9e_NsOjc4AJ9GKmxZ6mt-44" vertex="1" connectable="0">
+          <mxGeometry x="-0.9372" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9e_NsOjc4AJ9GKmxZ6mt-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9e_NsOjc4AJ9GKmxZ6mt-41" target="9e_NsOjc4AJ9GKmxZ6mt-53" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9e_NsOjc4AJ9GKmxZ6mt-41" value="isian lengkap?" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#e3c800;strokeColor=#000000;fontColor=#000000;strokeWidth=2;rounded=1;arcSize=0;" parent="1" vertex="1">
+          <mxGeometry x="670" y="335" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9e_NsOjc4AJ9GKmxZ6mt-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9e_NsOjc4AJ9GKmxZ6mt-53" target="9e_NsOjc4AJ9GKmxZ6mt-58" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9e_NsOjc4AJ9GKmxZ6mt-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9e_NsOjc4AJ9GKmxZ6mt-53" target="9e_NsOjc4AJ9GKmxZ6mt-60" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9e_NsOjc4AJ9GKmxZ6mt-53" value="simpan data formulir" style="whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#e3c800;strokeColor=#000000;fontColor=#000000;strokeWidth=2;rounded=1;arcSize=0;" parent="1" vertex="1">
+          <mxGeometry x="550" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9e_NsOjc4AJ9GKmxZ6mt-58" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontFamily=Verdana;fillColor=#e3c800;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="730" y="500" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9e_NsOjc4AJ9GKmxZ6mt-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9e_NsOjc4AJ9GKmxZ6mt-60" target="9e_NsOjc4AJ9GKmxZ6mt-62" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9e_NsOjc4AJ9GKmxZ6mt-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9e_NsOjc4AJ9GKmxZ6mt-60" target="9e_NsOjc4AJ9GKmxZ6mt-66" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9e_NsOjc4AJ9GKmxZ6mt-60" value="cetak kartu anggota" style="whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#e3c800;strokeColor=#000000;fontColor=#000000;strokeWidth=2;rounded=1;arcSize=0;" parent="1" vertex="1">
+          <mxGeometry x="550" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9e_NsOjc4AJ9GKmxZ6mt-62" value="kartu anggota" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Verdana;fillColor=#e3c800;strokeColor=#000000;fontColor=#000000;strokeWidth=2;rounded=1;arcSize=0;" parent="1" vertex="1">
+          <mxGeometry x="350" y="630" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9e_NsOjc4AJ9GKmxZ6mt-66" value="stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Verdana;fillColor=#e3c800;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="560" y="730" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

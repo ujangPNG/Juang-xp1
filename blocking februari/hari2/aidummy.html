@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Point of Sale</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="aidummy.js"></script>
+</head>
+<body>
+  <div>
+    <table id="order-table">
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Makanan / Minuman</th>
+          <th>Harga</th>
+          <th>Jumlah Pesan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Nasi Goreng Sambal Hijau</td>
+          <td class="harga">Rp | <span id="harga1">25000</span></td>
+          <td><input type="number" id="inp1" min="0" class="quantity"></td>
+        </tr>
+        <tr>
+          <td colspan="3" class="text-right">Jumlah</td>
+          <td class="total"><span id="jumlah"></span></td>
+        </tr>
+        <tr>
+          <td colspan="3" class="text-right">Diskon 5%</td>
+          <td class="total"><span id="diskon"></span></td>
+        </tr>
+        <tr>
+          <td colspan="3" class="text-right">Total Pembayaran</td>
+          <td class="total"><span id="total"></span></td>
+        </tr>
+        <tr>
+          <td colspan="2"><button onclick="reset()">Reset</button></td>
+          <td colspan="2"><button onclick="calculateTotal()">Cetak Struk</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

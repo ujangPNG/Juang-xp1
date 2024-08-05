@@ -1,0 +1,14 @@
+F:\Juang xp1\blocking oktober\chsarp juang h5\tmbangun\bin\Debug\net7.0\tmbangun.exe
+F:\Juang xp1\blocking oktober\chsarp juang h5\tmbangun\bin\Debug\net7.0\tmbangun.deps.json
+F:\Juang xp1\blocking oktober\chsarp juang h5\tmbangun\bin\Debug\net7.0\tmbangun.runtimeconfig.json
+F:\Juang xp1\blocking oktober\chsarp juang h5\tmbangun\bin\Debug\net7.0\tmbangun.dll
+F:\Juang xp1\blocking oktober\chsarp juang h5\tmbangun\bin\Debug\net7.0\tmbangun.pdb
+F:\Juang xp1\blocking oktober\chsarp juang h5\tmbangun\obj\Debug\net7.0\tmbangun.GeneratedMSBuildEditorConfig.editorconfig
+F:\Juang xp1\blocking oktober\chsarp juang h5\tmbangun\obj\Debug\net7.0\tmbangun.AssemblyInfoInputs.cache
+F:\Juang xp1\blocking oktober\chsarp juang h5\tmbangun\obj\Debug\net7.0\tmbangun.AssemblyInfo.cs
+F:\Juang xp1\blocking oktober\chsarp juang h5\tmbangun\obj\Debug\net7.0\tmbangun.csproj.CoreCompileInputs.cache
+F:\Juang xp1\blocking oktober\chsarp juang h5\tmbangun\obj\Debug\net7.0\tmbangun.dll
+F:\Juang xp1\blocking oktober\chsarp juang h5\tmbangun\obj\Debug\net7.0\refint\tmbangun.dll
+F:\Juang xp1\blocking oktober\chsarp juang h5\tmbangun\obj\Debug\net7.0\tmbangun.pdb
+F:\Juang xp1\blocking oktober\chsarp juang h5\tmbangun\obj\Debug\net7.0\tmbangun.genruntimeconfig.cache
+F:\Juang xp1\blocking oktober\chsarp juang h5\tmbangun\obj\Debug\net7.0\ref\tmbangun.dll

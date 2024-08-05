@@ -1,0 +1,14 @@
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\juang58\obj\Debug\net7.0\juang58.GeneratedMSBuildEditorConfig.editorconfig
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\juang58\obj\Debug\net7.0\juang58.AssemblyInfoInputs.cache
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\juang58\obj\Debug\net7.0\juang58.AssemblyInfo.cs
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\juang58\obj\Debug\net7.0\juang58.csproj.CoreCompileInputs.cache
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\juang58\bin\Debug\net7.0\juang58.exe
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\juang58\bin\Debug\net7.0\juang58.deps.json
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\juang58\bin\Debug\net7.0\juang58.runtimeconfig.json
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\juang58\bin\Debug\net7.0\juang58.dll
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\juang58\bin\Debug\net7.0\juang58.pdb
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\juang58\obj\Debug\net7.0\juang58.dll
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\juang58\obj\Debug\net7.0\refint\juang58.dll
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\juang58\obj\Debug\net7.0\juang58.pdb
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\juang58\obj\Debug\net7.0\juang58.genruntimeconfig.cache
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\juang58\obj\Debug\net7.0\ref\juang58.dll

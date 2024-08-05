@@ -1,0 +1,181 @@
+Option Explicit
+Dim sesi1 As Double
+Dim sesi2 As Double
+Dim answer As Double
+Dim operator As String
+Const pi = 3.14
+Dim op As Double
+
+
+
+
+
+Private Sub CommandButton20_Click()
+
+End Sub
+
+Private Sub akar_Click()
+hasil = Sqr(hasil)
+End Sub
+
+Private Sub cos_Click()
+hasil = cos((hasil) * pi / 180)
+End Sub
+
+Private Sub hasil_Click()
+sesi2 = TextBox1.Text
+If operator = "+" Then
+answer = sesi1 + sesi2
+TextBox1.Text = answer
+
+ElseIf operator = "-" Then
+answer = sesi1 - sesi2
+TextBox1.Text = answer
+
+ElseIf operator = "*" Then
+answer = sesi1 * sesi2
+TextBox1.Text = answer
+
+ElseIf operator = "/" Then
+answer = sesi1 / sesi2
+TextBox1.Text = answer
+
+ElseIf operator = "^" Then
+answer = sesi1 ^ sesi2
+TextBox1.Text = answer
+End If
+End Sub
+Private Sub bagi_Click()
+sesi1 = TextBox1.Text
+TextBox1.Text = ""
+operator = "/"
+End Sub
+
+Private Sub hapus_Click()
+TextBox1.Text = "0"
+End Sub
+
+
+Private Sub koma_Click()
+If InStr(TextBox1.Text, ".") = 0 Then
+TextBox1.Text = TextBox1.Text + "."
+End If
+End Sub
+
+Private Sub log_Click()
+hasil = log(hasil)
+End Sub
+
+Private Sub n00_Click()
+If TextBox1.Text = "00" Then
+TextBox1.Text = "00"
+Else
+TextBox1.Text = TextBox1.Text + "00"
+End If
+End Sub
+Private Sub sin_Click()
+hasil = sin((hasil) * pi / 180)
+End Sub
+
+Private Sub tambah_Click()
+sesi1 = TextBox1.Text
+TextBox1.Text = ""
+operator = "+"
+End Sub
+
+Private Sub kali_Click()
+sesi1 = TextBox1.Text
+TextBox1.Text = ""
+operator = "*"
+End Sub
+
+Private Sub kurang_Click()
+sesi1 = TextBox1.Text
+TextBox1.Text = ""
+operator = "-"
+End Sub
+Private Sub pangkat_Click()
+sesi1 = TextBox1.Text
+TextBox1.Text = ""
+operator = "^"
+End Sub
+
+
+
+
+Private Sub n0_Click()
+If TextBox1.Text = "0" Then
+TextBox1.Text = "0"
+Else
+TextBox1.Text = TextBox1.Text + "0"
+End If
+End Sub
+
+Private Sub n1_Click()
+If TextBox1.Text = "1" Then
+TextBox1.Text = "1"
+Else
+TextBox1.Text = TextBox1.Text + "1"
+End If
+End Sub
+Private Sub n2_Click()
+If TextBox1.Text = "2" Then
+TextBox1.Text = "2"
+Else
+TextBox1.Text = TextBox1.Text + "2"
+End If
+End Sub
+Private Sub n3_Click()
+If TextBox1.Text = "3" Then
+TextBox1.Text = "3"
+Else
+TextBox1.Text = TextBox1.Text + "3"
+End If
+End Sub
+Private Sub n4_Click()
+If TextBox1.Text = "4" Then
+TextBox1.Text = "4"
+Else
+TextBox1.Text = TextBox1.Text + "4"
+End If
+End Sub
+Private Sub n5_Click()
+If TextBox1.Text = "5" Then
+TextBox1.Text = "5"
+Else
+TextBox1.Text = TextBox1.Text + "5"
+End If
+End Sub
+Private Sub n6_Click()
+If TextBox1.Text = "6" Then
+TextBox1.Text = "6"
+Else
+TextBox1.Text = TextBox1.Text + "6"
+End If
+End Sub
+Private Sub n7_Click()
+If TextBox1.Text = "7" Then
+TextBox1.Text = "7"
+Else
+TextBox1.Text = TextBox1.Text + "7"
+End If
+End Sub
+Private Sub n8_Click()
+If TextBox1.Text = "8" Then
+TextBox1.Text = "8"
+Else
+TextBox1.Text = TextBox1.Text + "8"
+End If
+End Sub
+Private Sub n9_Click()
+If TextBox1.Text = "9" Then
+TextBox1.Text = "9"
+Else
+TextBox1.Text = TextBox1.Text + "9"
+End If
+End Sub
+
+
+Private Sub tan_Click()
+hasil = tan((hasil) * pi / 180)
+End Sub

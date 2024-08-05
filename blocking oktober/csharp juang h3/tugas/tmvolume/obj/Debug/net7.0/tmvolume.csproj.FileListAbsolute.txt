@@ -1,0 +1,14 @@
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmvolume\obj\Debug\net7.0\tmvolume.GeneratedMSBuildEditorConfig.editorconfig
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmvolume\obj\Debug\net7.0\tmvolume.AssemblyInfoInputs.cache
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmvolume\obj\Debug\net7.0\tmvolume.AssemblyInfo.cs
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmvolume\obj\Debug\net7.0\tmvolume.csproj.CoreCompileInputs.cache
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmvolume\bin\Debug\net7.0\tmvolume.exe
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmvolume\bin\Debug\net7.0\tmvolume.deps.json
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmvolume\bin\Debug\net7.0\tmvolume.runtimeconfig.json
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmvolume\bin\Debug\net7.0\tmvolume.dll
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmvolume\bin\Debug\net7.0\tmvolume.pdb
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmvolume\obj\Debug\net7.0\tmvolume.dll
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmvolume\obj\Debug\net7.0\refint\tmvolume.dll
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmvolume\obj\Debug\net7.0\tmvolume.pdb
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmvolume\obj\Debug\net7.0\tmvolume.genruntimeconfig.cache
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmvolume\obj\Debug\net7.0\ref\tmvolume.dll

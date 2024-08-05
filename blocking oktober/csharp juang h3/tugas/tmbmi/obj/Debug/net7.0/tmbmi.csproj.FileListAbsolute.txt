@@ -1,0 +1,14 @@
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmbmi\obj\Debug\net7.0\tmbmi.GeneratedMSBuildEditorConfig.editorconfig
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmbmi\obj\Debug\net7.0\tmbmi.AssemblyInfoInputs.cache
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmbmi\obj\Debug\net7.0\tmbmi.AssemblyInfo.cs
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmbmi\obj\Debug\net7.0\tmbmi.csproj.CoreCompileInputs.cache
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmbmi\bin\Debug\net7.0\tmbmi.exe
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmbmi\bin\Debug\net7.0\tmbmi.deps.json
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmbmi\bin\Debug\net7.0\tmbmi.runtimeconfig.json
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmbmi\bin\Debug\net7.0\tmbmi.dll
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmbmi\bin\Debug\net7.0\tmbmi.pdb
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmbmi\obj\Debug\net7.0\tmbmi.dll
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmbmi\obj\Debug\net7.0\refint\tmbmi.dll
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmbmi\obj\Debug\net7.0\tmbmi.pdb
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmbmi\obj\Debug\net7.0\tmbmi.genruntimeconfig.cache
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmbmi\obj\Debug\net7.0\ref\tmbmi.dll

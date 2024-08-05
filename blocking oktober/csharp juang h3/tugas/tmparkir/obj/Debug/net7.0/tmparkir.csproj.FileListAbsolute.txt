@@ -1,0 +1,14 @@
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmparkir\bin\Debug\net7.0\tmparkir.exe
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmparkir\bin\Debug\net7.0\tmparkir.deps.json
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmparkir\bin\Debug\net7.0\tmparkir.runtimeconfig.json
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmparkir\bin\Debug\net7.0\tmparkir.dll
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmparkir\bin\Debug\net7.0\tmparkir.pdb
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmparkir\obj\Debug\net7.0\tmparkir.GeneratedMSBuildEditorConfig.editorconfig
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmparkir\obj\Debug\net7.0\tmparkir.AssemblyInfoInputs.cache
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmparkir\obj\Debug\net7.0\tmparkir.AssemblyInfo.cs
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmparkir\obj\Debug\net7.0\tmparkir.csproj.CoreCompileInputs.cache
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmparkir\obj\Debug\net7.0\tmparkir.dll
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmparkir\obj\Debug\net7.0\refint\tmparkir.dll
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmparkir\obj\Debug\net7.0\tmparkir.pdb
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmparkir\obj\Debug\net7.0\tmparkir.genruntimeconfig.cache
+F:\Juang xp1\blocking oktober\csharp juang h3\tugas\tmparkir\obj\Debug\net7.0\ref\tmparkir.dll

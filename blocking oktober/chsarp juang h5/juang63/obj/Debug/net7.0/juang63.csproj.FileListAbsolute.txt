@@ -1,0 +1,14 @@
+F:\Juang xp1\blocking oktober\chsarp juang h5\juang63\obj\Debug\net7.0\juang63.GeneratedMSBuildEditorConfig.editorconfig
+F:\Juang xp1\blocking oktober\chsarp juang h5\juang63\obj\Debug\net7.0\juang63.AssemblyInfoInputs.cache
+F:\Juang xp1\blocking oktober\chsarp juang h5\juang63\obj\Debug\net7.0\juang63.AssemblyInfo.cs
+F:\Juang xp1\blocking oktober\chsarp juang h5\juang63\obj\Debug\net7.0\juang63.csproj.CoreCompileInputs.cache
+F:\Juang xp1\blocking oktober\chsarp juang h5\juang63\bin\Debug\net7.0\juang63.exe
+F:\Juang xp1\blocking oktober\chsarp juang h5\juang63\bin\Debug\net7.0\juang63.deps.json
+F:\Juang xp1\blocking oktober\chsarp juang h5\juang63\bin\Debug\net7.0\juang63.runtimeconfig.json
+F:\Juang xp1\blocking oktober\chsarp juang h5\juang63\bin\Debug\net7.0\juang63.dll
+F:\Juang xp1\blocking oktober\chsarp juang h5\juang63\bin\Debug\net7.0\juang63.pdb
+F:\Juang xp1\blocking oktober\chsarp juang h5\juang63\obj\Debug\net7.0\juang63.dll
+F:\Juang xp1\blocking oktober\chsarp juang h5\juang63\obj\Debug\net7.0\refint\juang63.dll
+F:\Juang xp1\blocking oktober\chsarp juang h5\juang63\obj\Debug\net7.0\juang63.pdb
+F:\Juang xp1\blocking oktober\chsarp juang h5\juang63\obj\Debug\net7.0\juang63.genruntimeconfig.cache
+F:\Juang xp1\blocking oktober\chsarp juang h5\juang63\obj\Debug\net7.0\ref\juang63.dll
