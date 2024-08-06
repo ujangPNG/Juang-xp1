@@ -14,7 +14,6 @@ public class contoh2 {
         System.out.println("Nilai x : "+a);
     }
     public static void main(String[] args) {
-        // TODO code application logic here
         int x;
         for (x=0;x<3;x++){
         cetak(x);
