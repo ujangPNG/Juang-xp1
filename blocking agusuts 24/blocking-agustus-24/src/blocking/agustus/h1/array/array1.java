@@ -1,4 +1,4 @@
-package array; public class array1 {
+package blocking.agustus.h1.array; public class array1 {
     private String[] mhs;
     private int[] deret;
     private int hasilJum;
