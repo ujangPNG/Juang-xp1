@@ -18,18 +18,18 @@ public class MainConstructorMotor {
         
         ConstructorKendaraan ob = new ConstructorKendaraan(merk);
         ob.tampil("Merk Kendaraan = "+ ob.getMerk());
-        ob.tampil("Pemilik Kendaraan = "+ob.getPemilik());
+        ob.tampil("Pemilik Kendaraan = "+ConstructorKendaraan.getPemilik());
         System.out.println("===================");
         
         ConstructorKendaraan ob2 = new ConstructorKendaraan();
         ob2.tampil("Merk Kendaraan (instant variable) = "+ob2.getMerk());
-        ob2.tampil("Merk Kendaraan (instant variable) = "+ob2.getPemilik());
+        ob2.tampil("Merk Kendaraan (instant variable) = "+ConstructorKendaraan.getPemilik());
         System.out.println("===================");
         
         ConstructorMotor ob3 = new ConstructorMotor(merk,warna);
         ob3.tampil("Merk Motor = "+ob3.getMerk());
         ob3.tampil("Warna Motor = "+ob3.getWarna());
-        ob3.tampil("Pemilik Motor = "+ob3.getPemilik());
+        ob3.tampil("Pemilik Motor = "+ConstructorMotor.getPemilik());
         
         pemilik = null;
         merk = null;

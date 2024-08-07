@@ -5,8 +5,6 @@
  */
 package blocking.agustus.h2.constructor.LatihanSoal;
 
-import blocking.agustus.h2.constructor.LatihanSoal.Person;
-import blocking.agustus.h2.constructor.LatihanSoal.Person;
 
 /**
  *
