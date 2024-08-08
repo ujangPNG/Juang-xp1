@@ -3,19 +3,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 package blocking.agustus.h4;
-import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.sql.ResultSet;
-import java.sql.PreparedStatement;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 /**
  *
  * @author vfz
  */
-public class form extends javax.swing.JFrame {
+public final class form extends javax.swing.JFrame {
     private DefaultTableModel tabmode;
     private ResultSet hasil;
     crud aa=new crud();
@@ -24,7 +20,7 @@ public class form extends javax.swing.JFrame {
         tampil_database();
     }
     public void tampil_database(){
-        Object[]baris={"ID","Nama","Alamat"};
+        Object[]baris={"id","nama","alamat"};
         tabmode=new DefaultTableModel(null,baris);
         
         tabel.setModel(tabmode);
@@ -36,7 +32,7 @@ public class form extends javax.swing.JFrame {
                 String[] data={aa.getID(),aa.getNama(),aa.getAlamat()};
                 tabmode.addRow(data);
             }
-        }catch (Exception e){
+        }catch (SQLException e){
             
         }
     }public void reset_text(){
@@ -99,6 +95,11 @@ public class form extends javax.swing.JFrame {
 
             public Class getColumnClass(int columnIndex) {
                 return types [columnIndex];
+            }
+        });
+        tabel.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tabelMouseClicked(evt);
             }
         });
         jScrollPane1.setViewportView(tabel);
@@ -217,11 +218,11 @@ public class form extends javax.swing.JFrame {
                 aa.setAlamat(t_alamat.getText()); 
                 aa.simpan(aa.getID(),aa.getNama(),aa.getAlamat());
 
-    JOptionPane.showMessageDialog(null,   "Data   berhasil   tersimpan"   ,   "Informasi", JOptionPane.INFORMATION_MESSAGE);
+    JOptionPane.showMessageDialog(null,   "Data berhasil tersimpan","Informasi", JOptionPane.INFORMATION_MESSAGE);
         tampil_database();
         reset_text();
         } catch (Exception e) {
-            JOptionPane.showMessageDialog(null,     "Data    gagal    tersimpan"     ,    "Informasi",
+            JOptionPane.showMessageDialog(null,     "Data gagal tersimpan"     ,    "Informasi",
             JOptionPane.INFORMATION_MESSAGE);
         }
 }
@@ -237,19 +238,50 @@ reset_text();        // TODO add your handling code here:
     }//GEN-LAST:event_ubahActionPerformed
 
     private void hapusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hapusActionPerformed
-        if*t_id.getText().trim().equals(""){
+        if(t_id.getText().trim().equals("")){
             JOptionPane.showMessageDialog(null,"Maaf, ID belum diisi !");
             t_id.requestFocus();
+        }else{
+            if  (JOptionPane.showConfirmDialog(null,  "Apakah  Anda  yakin  akan  menghapus  data ini ?","Warning",2) == JOptionPane.YES_OPTION){
+                String id="";
+                try{
+                     aa.setID(t_id.getText());
+                     aa.hapus(aa.getID());
+                     JOptionPane.showMessageDialog(null,   "Data   berhasil   dihapus"   ,   "Informasi", JOptionPane.INFORMATION_MESSAGE);
+                     tampil_database();
+                     reset_text();
+                }catch(Exception e){
+                    JOptionPane.showMessageDialog(null,    "Data    gagal    dihapus"    ,    "Informasi", JOptionPane.INFORMATION_MESSAGE);
+                }
+            }
+
         }
     }//GEN-LAST:event_hapusActionPerformed
 
     private void keluarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_keluarActionPerformed
-        // TODO add your handling code here:
+        if (JOptionPane.showConfirmDialog(null, "Apakah Anda yakin akan keluar ?","Warning",2)
+== JOptionPane.YES_OPTION){
+System.exit(0);
+}
+
     }//GEN-LAST:event_keluarActionPerformed
 
-    /**
-     * @param args the command line arguments
-     */
+    private void tabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tabelMouseClicked
+        try{
+            int row=tabel.rowAtPoint(evt.getPoint());
+            String id = tabel.getValueAt(row, 0).toString(); 
+            String nama = tabel.getValueAt(row, 1).toString(); 
+            String alamat = tabel.getValueAt(row, 2).toString();
+            
+            t_id.setText(String.valueOf(id)); 
+            t_nama.setText(String.valueOf(nama)); 
+            t_alamat.setText(String.valueOf(alamat));
+        }catch (Exception e){
+            
+        }
+        
+    }//GEN-LAST:event_tabelMouseClicked
+
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -272,12 +304,9 @@ reset_text();        // TODO add your handling code here:
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(form.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
-
-        /* Create and display the form */
+        //</editor-fold>public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new form().setVisible(true);
             }
         });
     }

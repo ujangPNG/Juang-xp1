@@ -57,7 +57,7 @@ public class crud {
         }return CRUDhasil;
     }
     public void simpan(String id,String nama,String alamat){
-        CRUDquery="insert into siswa values( , , )";
+        CRUDquery="insert into siswa values(?,?,?)";
         try{
             CRUDpsmt=CRUDkoneksi.prepareStatement(CRUDquery);
             CRUDpsmt.setString(1, id);
@@ -70,7 +70,7 @@ public class crud {
         }
     }
     public void ubah(String id,String nama,String alamat){
-         CRUDquery="insert into siswa values( , , )";
+         CRUDquery="update siswa set nama=?, alamat=? where id=?";
         try{
             CRUDpsmt=CRUDkoneksi.prepareStatement(CRUDquery);
             CRUDpsmt.setString(1, id);
@@ -83,7 +83,7 @@ public class crud {
         }
     }
     public void hapus(String id){
-         CRUDquery="insert into siswa values( , , )";
+         CRUDquery="delete from siswa where id=?";
         try{
             CRUDpsmt=CRUDkoneksi.prepareStatement(CRUDquery);
             CRUDpsmt.setString(1, id);
