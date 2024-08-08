@@ -86,17 +86,9 @@ public final class form extends javax.swing.JFrame {
                 {null, null, null}
             },
             new String [] {
-                "ID", "Nama", "Alamat"
+                "id", "nama", "alamat"
             }
-        ) {
-            Class[] types = new Class [] {
-                java.lang.Integer.class, java.lang.String.class, java.lang.String.class
-            };
-
-            public Class getColumnClass(int columnIndex) {
-                return types [columnIndex];
-            }
-        });
+        ));
         tabel.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 tabelMouseClicked(evt);
@@ -269,9 +261,9 @@ System.exit(0);
     private void tabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tabelMouseClicked
         try{
             int row=tabel.rowAtPoint(evt.getPoint());
-            String id = tabel.getValueAt(row, 0).toString(); 
-            String nama = tabel.getValueAt(row, 1).toString(); 
-            String alamat = tabel.getValueAt(row, 2).toString();
+            String id = tabel.getValueAt(row, 0).toString();
+String nama = tabel.getValueAt(row, 1).toString();
+String alamat = tabel.getValueAt(row, 2).toString();
             
             t_id.setText(String.valueOf(id)); 
             t_nama.setText(String.valueOf(nama)); 
