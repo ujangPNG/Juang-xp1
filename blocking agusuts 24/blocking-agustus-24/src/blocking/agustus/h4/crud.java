@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package blocking.agustus.h4;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -56,7 +53,7 @@ public class crud {
             
         }return CRUDhasil;
     }
-    public void simpan(String id,String nama,String alamat){
+    public String simpan(String id,String nama,String alamat){
         CRUDquery="insert into siswa values(?,?,?)";
         try{
             CRUDpsmt=CRUDkoneksi.prepareStatement(CRUDquery);
@@ -68,21 +65,23 @@ public class crud {
         }catch(Exception e){
         System.out.println(e);
         }
+        return null;
     }
-    public void ubah(String id,String nama,String alamat){
+    public String ubah(String id,String nama,String alamat){
          CRUDquery="update siswa set nama=?, alamat=? where id=?";
         try{
             CRUDpsmt=CRUDkoneksi.prepareStatement(CRUDquery);
-            CRUDpsmt.setString(1, id);
-            CRUDpsmt.setString(2, nama);
-            CRUDpsmt.setString(3,alamat);
+            CRUDpsmt.setString(1, nama);
+            CRUDpsmt.setString(2, alamat);
+            CRUDpsmt.setString(3,id);
             CRUDpsmt.executeUpdate();
             CRUDpsmt.close();
         }catch(Exception e){
         System.out.println(e);
         }
+        return null;
     }
-    public void hapus(String id){
+    public String hapus(String id){
          CRUDquery="delete from siswa where id=?";
         try{
             CRUDpsmt=CRUDkoneksi.prepareStatement(CRUDquery);
@@ -92,5 +91,19 @@ public class crud {
         }catch(Exception e){
         System.out.println(e);
         }
+        return null;
+    }
+    public String cari(String nama){
+         CRUDquery="SELECT*FROM siswa where nama like ? or nama like ?";
+        try{
+            CRUDpsmt=CRUDkoneksi.prepareStatement(CRUDquery);
+            CRUDpsmt.setString(1, "%" + nama + "%");
+            CRUDpsmt.setString(2, "%" + nama + "%");
+            CRUDpsmt.executeQuery();
+            CRUDpsmt.close();
+        }catch(Exception e){
+        System.out.println(e);
+        }
+        return null;
     }
 }

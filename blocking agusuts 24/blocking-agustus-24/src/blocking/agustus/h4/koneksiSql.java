@@ -12,18 +12,16 @@ package blocking.agustus.h4;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.sql.Statement;
-import java.sql.ResultSet;
 public class koneksiSql {
     private Connection connect;
-     private String DriverName="com.mysql.jdbc.Driver";
-     private String jdbc="jdbc:mysql://";
-     private String host="localhost:";
-     private String port ="3306/";
-     private String database="bloking";
-     private String url=jdbc+host+port+database;
-     private String username="root";
-     private String password="";
+     private final String DriverName="com.mysql.jdbc.Driver";
+     private final String jdbc="jdbc:mysql://";
+     private final String host="localhost:";
+     private final String port ="3306/";
+     private final String database="bloking";
+     private final String url=jdbc+host+port+database;
+     private final String username="root";
+     private final String password="";
      public Connection getKoneksi()throws SQLException{
          if(connect==null){
              try{
