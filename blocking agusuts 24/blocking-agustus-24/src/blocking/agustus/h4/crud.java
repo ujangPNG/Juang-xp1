@@ -10,6 +10,7 @@ import java.sql.PreparedStatement;
  *
  * @author vfz
  */
+@SuppressWarnings("unused")
 public class crud {
     private String id,nama,alamat;
     private Connection CRUDkoneksi;
