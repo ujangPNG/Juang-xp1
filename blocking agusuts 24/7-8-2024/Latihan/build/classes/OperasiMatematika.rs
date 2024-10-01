@@ -1,0 +1,4 @@
+OperasiPerkalian
+OperasiPembagian
+OperasiPenjumlahan
+OperasiPengurangan
