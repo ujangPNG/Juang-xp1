@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
             end: "bottom top",
             scrub: 1,
             pin: true,
+            end: "+=120%",
         }
     });
 
