@@ -1,5 +1,5 @@
 <?php
-#myphp admin
+#cassandra
 session_start();
 $koneksi = new mysqli('localhost', 'root', '', 'myapp_ndan') or die(mysqli_error($koneksi));
 if (isset($_POST['login'])) {
