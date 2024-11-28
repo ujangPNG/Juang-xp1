@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gacha Simulator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .input-group {
+            margin: 10px 0;
+        }
+        input {
+            padding: 5px;
+            margin-right: 10px;
+        }
+        button {
+            padding: 5px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        #result {
+            margin-top: 20px;
+            white-space: pre-line;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gacha Simulator</h1>
+    
+    <div class="input-group">
+        <input type="number" id="chance" placeholder="Enter max range">
+        <input type="number" id="target" placeholder="Enter target number">
+        <button onclick="runGacha()">Roll!</button>
+    </div>
+
+    <div id="result"></div>
+
+    <script>
+        function secondsToTime(seconds) {
+            const hours = Math.floor(seconds / 3600);
+            const minutes = Math.floor((seconds % 3600) / 60);
+            const remainingSeconds = seconds % 60;
+            
+            let timeString = '';
+            if (hours > 0) timeString += `${hours} hours `;
+            if (minutes > 0) timeString += `${minutes} minutes `;
+            if (remainingSeconds > 0) timeString += `${remainingSeconds} seconds`;
+            
+            return timeString.trim();
+        }
+
+        function gacha(chance, target) {
+            var rand = Math.floor(Math.random() * chance) + 1;
+            var ro = 1;
+            let output = `Roll 1: ${rand}\n`;
+            
+            while(rand !== target) {
+                ro++;
+                rand = Math.floor(Math.random() * chance) + 1;
+                output += `Roll ${ro}: ${rand}\n`;
+            }
+            
+            const timeString = secondsToTime(ro);
+            return output + `\nGot ${target} after ${ro} attempts! (${timeString} if each roll takes 1 second)`;
+        }
+
+        function runGacha() {
+            const chance = parseInt(document.getElementById('chance').value);
+            const target = parseInt(document.getElementById('target').value);
+            
+            if (isNaN(chance) || isNaN(target) || chance < 1 || target > chance) {
+                document.getElementById('result').textContent = 'Please enter valid numbers. Target should be within the range.';
+                return;
+            }
+            
+            const result = gacha(chance, target);
+            document.getElementById('result').textContent = result;
+        }
+    </script>
+</body>
+</html>

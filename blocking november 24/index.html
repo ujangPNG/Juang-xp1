@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gacha Simulator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .input-group {
+            margin: 10px 0;
+        }
+        input {
+            padding: 5px;
+            margin-right: 10px;
+        }
+        button {
+            padding: 5px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        #result {
+            margin-top: 20px;
+            white-space: pre-line;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gacha Simulator</h1>
+    
+    <div class="input-group">
+        <input type="number" id="chance" placeholder="Enter max range" value="1000">
+        <input type="number" id="target" placeholder="Enter target number" value="9">
+        <button onclick="runGacha()">Roll!</button>
+    </div>
+
+    <div id="result"></div>
+
+    <!-- Import your JavaScript file -->
+    <script src="gacha.js"></script>
+    <!-- OR -->
+    <!-- <script src="gacha no delay.js"></script> -->
+
+    <!-- Add this wrapper script -->
+    <script>
+        function runGacha() {
+            const chance = parseInt(document.getElementById('chance').value);
+            const target = parseInt(document.getElementById('target').value);
+            
+            if (isNaN(chance) || isNaN(target) || chance < 1 || target > chance) {
+                document.getElementById('result').textContent = 'Please enter valid numbers. Target should be within the range.';
+                return;
+            }
+            
+            // For gacha.js (with delay)
+            gacha(chance, target).then(result => {
+                document.getElementById('result').textContent = result;
+            });
+            
+            // OR for gacha no delay.js (uncomment this and comment the above)
+            // const result = gacha(chance, target);
+            // document.getElementById('result').textContent = result;
+        }
+    </script>
+</body>
+</html>
